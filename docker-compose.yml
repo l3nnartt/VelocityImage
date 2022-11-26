@@ -1,0 +1,7 @@
+version: "3"
+services:
+  channel-manager:
+    image: ghcr.io/l3nnartt/velocityimage:main
+    restart: always
+    volumes:
+      - .\velocity.toml:/bungeecord/velocity.toml
