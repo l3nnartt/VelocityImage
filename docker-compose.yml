@@ -1,6 +1,7 @@
 version: "3"
 services:
   velocityimage:
+    container_name: "velocity"
     image: ghcr.io/l3nnartt/velocityimage:main
     restart: always
     volumes:
