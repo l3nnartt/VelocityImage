@@ -1,5 +1,12 @@
 FROM openjdk:17-alpine
 
+LABEL org.opencontainers.image.vendor="ghcr.io"
+LABEL org.opencontainers.image.title="Velocity"
+LABEL org.opencontainers.image.description="Docker image to run a velocity minecraft proxy"
+LABEL org.opencontainers.image.source=https://github.com/l3nnartt/velocityimage
+LABEL org.opencontainers.image.authors="Lennart Lösche <contact@lennartloesche.de>"
+LABEL org.opencontainers.image.version="1.0.0"
+
 EXPOSE 25565
 
 WORKDIR /opt/velocity/
