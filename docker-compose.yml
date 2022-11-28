@@ -4,5 +4,7 @@ services:
     container_name: "velocity"
     image: ghcr.io/l3nnartt/velocityimage:main
     restart: always
+    ports:
+     - "25565:25565"
     volumes:
       - ./velocity.toml:/opt/velocity/velocity.toml
