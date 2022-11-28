@@ -8,3 +8,4 @@ services:
      - "25565:25565"
     volumes:
       - ./velocity.toml:/opt/velocity/velocity.toml
+      - ./plugins/:/opt/velocity/plugins/
