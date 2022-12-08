@@ -18,3 +18,6 @@ services:
 
 ## 2. Create plugins folder & velocity.toml file
 ![image](https://user-images.githubusercontent.com/69513317/204505459-bba2bee5-6150-4a5a-a37e-7b1f163fd0be.png)
+
+Get the default toml from the velocity repo
+https://github.com/PaperMC/Velocity/blob/dev/3.0.0/proxy/src/main/resources/default-velocity.toml
