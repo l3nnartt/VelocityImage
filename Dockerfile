@@ -5,12 +5,12 @@ LABEL org.opencontainers.image.title="Velocity"
 LABEL org.opencontainers.image.description="Docker image to run a velocity minecraft proxy"
 LABEL org.opencontainers.image.source=https://github.com/l3nnartt/velocityimage
 LABEL org.opencontainers.image.authors="Lennart Lösche <contact@lennartloesche.de>"
-LABEL org.opencontainers.image.version="1.0.0"
+LABEL org.opencontainers.image.version="3.1.2-SNAPSHOT"
 
 EXPOSE 25565
 
 WORKDIR /opt/velocity/
-ADD https://api.papermc.io/v2/projects/velocity/versions/3.1.2-SNAPSHOT/builds/185/downloads/velocity-3.1.2-SNAPSHOT-185.jar velocity.jar
+ADD https://api.papermc.io/v2/projects/velocity/versions/3.1.2-SNAPSHOT/builds/192/downloads/velocity-3.1.2-SNAPSHOT-192.jar velocity.jar
 
 RUN apk --update add --no-cache ca-certificates
 
