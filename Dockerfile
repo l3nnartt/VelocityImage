@@ -10,7 +10,7 @@ LABEL org.opencontainers.image.version=3.1.2-SNAPSHOT-200
 EXPOSE 25565
 
 WORKDIR /opt/velocity/
-ADD https://api.papermc.io/v2/projects/velocity/versions/3.1.2-SNAPSHOT/builds/200/downloads/velocity-3.1.2-SNAPSHOT-200.jar velocity.jar
+ADD https://api.papermc.io/v2/projects/velocity/versions/3.2.0-SNAPSHOT/builds/247/downloads/velocity-3.2.0-SNAPSHOT-247.jar velocity.jar
 
 RUN apk --update add --no-cache ca-certificates
 
